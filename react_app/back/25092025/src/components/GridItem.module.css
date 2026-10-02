@@ -1,0 +1,9 @@
+.gridItem {
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  color: white;
+  padding: 15px;
+  margin: 8px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

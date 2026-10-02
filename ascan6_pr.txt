@@ -1,0 +1,7 @@
+SELECT dbo.Wheel.Number AS Wheel_number, dbo.Wheel.Barcode, dbo.Batch.Number AS Batch_number, dbo.NonDestructiveAnalisis.UltrasoundImagePath AS Path, dbo.NonDestructiveAnalisis.Material,
+                  dbo.Treatment.Number AS Treatment_number
+FROM     dbo.Batch INNER JOIN
+                  dbo.BatchWheel ON dbo.Batch.Id = dbo.BatchWheel.BatchId INNER JOIN
+                  dbo.NonDestructiveAnalisis INNER JOIN
+                  dbo.Wheel ON dbo.NonDestructiveAnalisis.WheellId = dbo.Wheel.Id ON dbo.BatchWheel.WheelId = dbo.NonDestructiveAnalisis.WheellId INNER JOIN
+                  dbo.Treatment ON dbo.Wheel.TreatmentId = dbo.Treatment.Id

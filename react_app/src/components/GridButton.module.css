@@ -1,0 +1,30 @@
+.gridButton {
+  background: rgb(243, 243, 243);
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  padding: 15px;
+  margin: 5px;
+  border: 1px solid rgb(230, 230, 230);
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.gridButton:hover {
+  background: rgb(198, 232, 255);
+  border: none;
+}
+
+.gridButton {
+  min-width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

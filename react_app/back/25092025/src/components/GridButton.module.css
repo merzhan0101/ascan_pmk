@@ -1,0 +1,22 @@
+.gridButton {
+  background: linear-gradient(to bottom, #4285F4, #3367D6);
+  color: white;
+  padding: 15px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 60px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.gridButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
